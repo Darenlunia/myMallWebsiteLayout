@@ -1,0 +1,14 @@
+@charset "utf-8";
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input
+{margin:0;padding:0;}
+/*fieldset给表单加外边框*/
+
+body{font-size:12px;}
+img{border:none;} /*有些浏览器默认加上蓝色外边框*/
+input,select,textarea{outline:none;border:none;}
+textarea{resize:none;}/*设置不可以调整文本域*/
+a{text-decoration:none;color:#656565}
+ul,li{list-style-type:none;}
+/*清浮动*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{*zoom:1;}

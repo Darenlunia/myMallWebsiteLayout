@@ -1,0 +1,157 @@
+/*一些公用属性*/
+.comWidth{
+    width:1000px;
+    margin:0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*topBar相关，这一段代码有点惨不忍睹*/
+.topBar{
+    height: 35px;
+    background: #eee;
+    font-size: 12px;
+    color:#666;
+    line-height: 35px;
+}
+.topBar-left{
+    float: left;
+}
+.topBar-right{
+    float: right;
+}
+.topBar-left li,.topBar-right li{
+    margin: 0 2px;
+    float:left;
+    text-align: center;
+}
+.topBar-left .helloTaoBai{
+    margin-left:20px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+.topBar-left li a,.topBar-right li a{
+    padding:0 5px;
+    display: block;
+    height: 35px;
+}
+.topBar-left li .arrow-item{
+    text-align: left;
+    width: 80px;
+    background-image: url("../icon/drag.png") ;
+    background-position: right center ;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+.topBar-left li a:visited,.topBar-left li a:link,.topBar-right li a:visited,.topBar-right li a:link
+{
+    color:#666;
+}
+.topBar-left li a:hover,.topBar-right li:hover {
+    color:rgb(236, 77, 14);
+    background-color: #fff;
+}
+.topBar-left li ul{
+    min-width: 100px;
+    padding:0 0;
+    margin: 0 0;
+    border-left:1px solid #ddd;
+    border-right:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    cursor: pointer;
+    display:none;
+}
+.topBar-left li ul li{
+    padding:0 0 0 10px;
+    margin: 0 0;
+    text-align: left;
+    line-height: 25px;
+    float:none;
+}
+.topBar-left li:hover ul{
+    display:block;
+    position: absolute;
+    z-index: 999;
+}
+.topBar-left li ul li:hover{
+    color:#666;
+    background:#eee;
+}
+.topBar-right li:last-child{
+    margin-right:35px;
+}
+.addwidth{
+    padding-left: 10px;
+}
+#buyCar{
+    background-image: url(../icon/buyCar.png) ;
+    background-position:left center;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    padding-left:20px;
+}
+#collect{
+    background-image: url(../icon/collect.png) ;
+    background-position:left center;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    padding-left:20px;
+}
+
+
+/*logoBar，从这里开始优化*/
+.logoBar{
+    height:100px;
+    background-color: #181818;
+}
+.logo img{
+    padding: 5px ;
+    width: 90px;
+    height: 90px;
+}
+.search_box{
+    width: 450px;
+    padding-top: 30px;
+    padding-left: 185px;
+}
+.search_text{
+    background-color: white;
+    width:360px;
+    height: 35px;
+    padding:0 8px;
+}
+.search_btn{
+    width: 70px;
+    height: 35px;
+    font-size:14px;
+    background-color: tomato;
+    font-family: "微软雅黑";
+    color:white
+}
+.shopCar{
+    margin-top: 30px;
+    height: 35px;
+    width: auto;
+    background-color: tomato;
+    font-size:14px;
+    line-height: 35px;
+    font-family: "微软雅黑";
+    color:white;
+    margin-right: 50px;
+}
+.shopText{
+    width:60px;
+    border-right:#a38560 solid 2px;
+    background:url("../icon/whiteBuyCar.png") left center no-repeat;
+    background-size: 25px 20px;
+    padding-left:35px;
+    margin-left: 15px;
+}
+.shopNum{
+    width:25px;
+    height: 35px;
+    padding-left:15px;
+}
