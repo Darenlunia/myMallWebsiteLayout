@@ -1,6 +1,6 @@
 /*一些公用属性*/
 .comWidth{
-    width:1000px;
+    width:1100px;
     margin:0 auto;
 }
 .fl{
@@ -9,6 +9,13 @@
 .fr{
     float: right;
 }
+.hidden{
+    display:none;
+}
+.show{
+    display:block;
+}
+
 /*topBar相关，这一段代码有点惨不忍睹*/
 .topBar{
     height: 35px;
@@ -108,14 +115,14 @@
     background-color: #181818;
 }
 .logo img{
-    padding: 5px ;
+    padding:4px 0 0 50px;
     width: 90px;
     height: 90px;
 }
 .search_box{
-    width: 450px;
-    padding-top: 30px;
-    padding-left: 185px;
+    width: 447px;
+    padding-top: 33px;
+    padding-left: 160px;
 }
 .search_text{
     background-color: white;
@@ -127,24 +134,25 @@
     width: 70px;
     height: 35px;
     font-size:14px;
-    background-color: tomato;
+    background-color: rgb(230, 70, 90);
     font-family: "微软雅黑";
     color:white
 }
 .shopCar{
-    margin-top: 30px;
+    margin-top: 33px;
     height: 35px;
     width: auto;
-    background-color: tomato;
+    background-color: rgb(230, 70, 90);
     font-size:14px;
     line-height: 35px;
     font-family: "微软雅黑";
     color:white;
     margin-right: 50px;
+    border-radius: 5%;
 }
 .shopText{
     width:60px;
-    border-right:#a38560 solid 2px;
+    border-right:#442217 solid 1px;
     background:url("../icon/whiteBuyCar.png") left center no-repeat;
     background-size: 25px 20px;
     padding-left:35px;
@@ -154,4 +162,180 @@
     width:25px;
     height: 35px;
     padding-left:15px;
+}
+.navBox{
+    background-color: rgb(133, 98, 92);
+    height: 30px;
+}
+/*导航栏-主题市场*/
+.shopClass{
+    position:relative;
+}
+.shopClass p{
+    color: white;
+    font-family: "微软雅黑";
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: rgb(230, 70, 90);
+    width: 190px;
+}
+/*导航栏*/
+.nav{
+    line-height: 30px;
+}
+.nav li{
+    float: left;
+    margin: 0 1px;
+    position: relative;
+}
+.nav li:first-child{
+    margin-left: 10px;
+}
+.nav a{
+    padding:7px 30px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.nav .navBorder::after{
+    content: "|";
+    position: absolute;
+    right: -2px;
+    bottom: 1px;
+}
+.nav a:hover{
+    background-color: rgb(233, 126, 138);
+}
+/*主题市场下的bar*/
+.shopClass_show{
+    border: palevioletred 1.5px solid;
+    border-top: none;
+}
+.shopClass_item{
+    width: 170px;
+    height: 35px;
+    padding:0 0 0 18px;
+    margin: 5px 0;
+    background:url(../icon/rightArrow.png) no-repeat 168px center;
+    background-size:15px 15px ;
+}
+
+.shopClass_item:first-child{
+    margin-top:0px;
+}
+.shopClass_item:hover{
+    background-color: rgb(247, 210, 212);
+    color:rgb(230, 70, 90)
+}
+
+.shopClass_item:hover a{
+    color:rgb(230, 70, 90)
+}
+.shopClass_item a{
+    font-size:13px;
+    line-height: 35px;
+    font-family: "微软雅黑";
+    color: #5e5e5e;
+}
+.shopClass_item a:hover{
+    text-decoration:underline;
+}
+/*弹出的菜单*/
+.shopClass_list{
+    width:650px;
+    position:absolute;
+    top:30px;
+    left:190px;
+    border:rgb(250, 191, 184) 1px solid;
+    border-left: none;   
+    z-index: 10;
+    background-color: white;
+}
+.shopClass_list .shopClass_list_content{
+    padding:0 20px;
+    box-shadow: 2px 0px 30px 2px rgba(168, 168, 157, 0.5);
+}
+.shopClass_list dl{
+    width: 600px;
+    height: 60px;
+    line-height: 58px;
+    border-bottom:#eee 1.5px solid;
+    position: relative;
+}
+.shopClass_list dl::after{
+    content: "查看更多 >>";
+    position: absolute;
+    right: 20px;
+    text-decoration: underline ;
+    color:#aaa;
+}
+.shopClass_list dt{
+    width:60px;
+    float:left;
+    padding:0 10px 0 20px;
+}
+.shopClass_list dt a{
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(253, 103, 86);
+}
+.shopClass_list dd{
+    float:left;
+    padding:0 10px;
+}
+.shopClass_list a{
+    font-family: "微软雅黑";
+    color: #5e5e5e;
+}
+.shopClass_list .highlight{
+    color:#fa6451
+}
+
+/*主页的banner */
+.banner_bar{
+    width: 520px;
+    height:280px;
+    position: relative;
+    top:0;
+    left:0px;
+    background:red;
+    float:left;
+    overflow: hidden;
+}
+.imgBox{
+    width:1580px;
+    height:280px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.imgBox li{
+    float: left;
+}
+.imgBox img{
+    width:520px;
+    height:280px;
+    display: block;
+}
+.imgNum{
+    position: absolute;
+    left:0;
+    bottom:10px;
+    width:100%;
+    text-align: center;
+}
+.imgNum a{
+    width:5px;
+    height: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #fff;
+    display: inline-block;
+    margin:0 3px;
+}
+.imgNum .active{
+    background: tomato;
 }
