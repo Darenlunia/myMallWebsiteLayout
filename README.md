@@ -19,6 +19,10 @@
 
 |→img 放图片
 
+|→→ banner 放轮播图
+
+|→→ logo.png
+
 |→js 放js
 
 |→style 放css
