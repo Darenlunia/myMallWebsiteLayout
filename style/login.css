@@ -1,0 +1,14 @@
+.login_logo .comWidth{
+    width: 630px;
+}
+.login_logo .logo{
+    margin-left: 60px;
+}
+.logo_title{
+    margin-left: 30px;
+    letter-spacing: 0.5em;
+    line-height: 100px;
+    color:rgb(228,169,70);
+    font:"微软雅黑";
+    font-size: 13px;
+}
