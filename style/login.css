@@ -1,8 +1,8 @@
 .login_logo .comWidth{
-    width: 630px;
+    width: 450px;
 }
 .login_logo .logo{
-    margin-left: 60px;
+    margin-left: 10px;
 }
 .logo_title{
     margin-left: 30px;
@@ -11,4 +11,42 @@
     color:rgb(228,169,70);
     font:"微软雅黑";
     font-size: 13px;
+}
+/*登录框*/
+.loginBox{
+    width:400px;
+    border:1px solid #ddd;
+    box-shadow: 2px 2px 5px 2px #ddd;
+    background: white;
+    margin:30px auto;
+}
+.loginContent{
+    width: 300px;
+    margin:20px auto;
+}
+.loginTit{
+    color:#666;
+    line-height: 30px;
+    font:"微软雅黑";
+}
+.loginInp{
+    border:#bbb solid 1px;
+    height:32px;
+    width: 100%;
+    line-height: 32px;
+    text-indent:5px;
+}
+.autoLogin{
+    padding-top:10px;
+    padding-bottom: 20px;
+}
+.checked{
+
+    margin-right: 3px;
+}
+.login_btn{
+    width: 310px;
+    height: 36px;
+    background: rgba(228,169,70);
+    color:rgb(248, 248, 248);
 }
