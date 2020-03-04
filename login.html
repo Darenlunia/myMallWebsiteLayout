@@ -7,6 +7,7 @@
     <link href="style/reset.css" rel="stylesheet" type="text/css">
     <link href="style/main.css" rel="stylesheet" type="text/css">
     <link href="style/login.css" rel="stylesheet" type="text/css">
+    <script src="js/login.js" type="text/javascript"></script>
     <title>淘百网</title>
 </head>
 <body>
@@ -46,17 +47,17 @@
             <div class="loginContent">
                 <ul>
                     <li class="loginTit">用户名/邮箱/手机号：</li>
-                    <li ><input type="text" class="loginInp"></li>
+                    <li><input type="text" class="loginInp" id="uname" name="user" placeholder="5-12位字符"></li>
                     <li class="loginTit">密码:</li>
-                    <li ><input type="password" class="loginInp"></li>
-                    <li class="autoLogin"><input type="checkbox" id="a1" class="checked"><label for="a1">自动登录</label></li>
-                    <li><input type="button" value="登 &nbsp; &nbsp; &nbsp; 录" class="login_btn"></li>
+                    <li><input type="password" class="loginInp" id="upass" name="password" placeholder="6-12位字符"></li>
+                    <li><span id="error_box"></span></li>
+                    <li class="autoLogin fl"><input type="checkbox" id="a1" class="checked"><label for="a1">自动登录</label>
+                    <li class="tranReg fr"><a href="#">点击注册</a></li>
+                    <li><input type="submit" class="login_btn" value="登 &nbsp; &nbsp; &nbsp; 录" onclick="fnLogin()" /></li>
                 </ul>
             </div>
         </div>
     </div>
-    
-
 
     <div  class="comWidth">
         <div class="footer">
