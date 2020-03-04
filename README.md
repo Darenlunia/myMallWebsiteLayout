@@ -11,7 +11,7 @@
 ![avatar](https://img-blog.csdnimg.cn/20200219215708540.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x1bmlhV2FuZw==,size_16,color_FFFFFF,t_70)
 
 #### 登录页：
-![avatar](https://img-blog.csdnimg.cn/2020030322363961.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x1bmlhV2FuZw==,size_16,color_FFFFFF,t_70)
+![avatar](https://img-blog.csdnimg.cn/20200304110815422.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x1bmlhV2FuZw==,size_16,color_FFFFFF,t_70)
 
 #### 项目目录：
 
